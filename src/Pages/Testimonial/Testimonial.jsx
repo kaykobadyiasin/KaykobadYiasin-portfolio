@@ -22,7 +22,7 @@ const Testimonial = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className="card w-96 mx-auto bg-base-100 shadow-xl pt-5">
+                    <div className="card w-96 mx-auto bg-base-100 shadow-xl pt-5 min-h-screen">
                         <figure><img className="mask mask-circle w-8/12" src={testy1} /></figure>
                         <div className="card-body">
                             <h2 className="text-center font-bold text-2xl">

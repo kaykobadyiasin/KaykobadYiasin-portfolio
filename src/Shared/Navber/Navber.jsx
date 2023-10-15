@@ -1,34 +1,17 @@
-import { useEffect, useState } from "react";
+
 import { Link, NavLink } from "react-router-dom";
-import resume from '../../assets/Kaykobad-Yiasin-resume.pdf'
+import resume from '../../assets/Kaykobad-Yiasin-CV.pdf'
 import { Fade, Slide } from "react-awesome-reveal";
 
 const Navber = () => {
-    /* const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
 
-
-    const handleTheme = (e) => {
-        if(e.target.checked){
-            setTheme('dark')
-        }else{
-            setTheme('light')
-        }
-    }
-
-    useEffect(() => {
-        localStorage.setItem('theme', theme);
-        const localTheme = localStorage.getItem(theme);
-        document.querySelector('html').setAttribute('data-theme', localTheme)
-    }, [theme])
-
- */
 
     const navItems = <>
         <li><NavLink to='/' className="hover:text-[#FFA801]">Home</NavLink></li>
         <li><NavLink to='/about' className="hover:text-[#FFA801]">About</NavLink></li>
         <li><NavLink to='/portfolio' className="hover:text-[#FFA801]">Portfolio</NavLink></li>
         <li><NavLink to='/skills' className="hover:text-[#FFA801]">Skills</NavLink></li>
-        <li><NavLink to='/testimonial' className="hover:text-[#FFA801]">Testimonial</NavLink></li>
+        {/* <li><NavLink to='/testimonial' className="hover:text-[#FFA801]">Testimonial</NavLink></li> */}
         <li><NavLink to='/contact' className="hover:text-[#FFA801]">Contact</NavLink></li>
     </>
 

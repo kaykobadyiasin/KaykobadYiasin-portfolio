@@ -1,6 +1,6 @@
 import React from 'react';
 import bannerImg from '../../../assets/Kaykobad-Yiasin-Photo.jpg'
-import resume from '../../../assets/Kaykobad-Yiasin-resume.pdf'
+// import resume from '../../../assets/Kaykobad-Yiasin-resume.pdf'
 import { Link } from 'react-router-dom';
 import { useCallback } from "react";
 import Particles from "react-particles";
@@ -113,10 +113,10 @@ const Banner = () => {
                             <img src={bannerImg} className=" border-4 max-w-sm rounded-lg shadow-2xl" />
                         </Slide>
                     </div>
-                    <div className='text-white lg:w-6/12'>
+                    <div className='text-white lg:w-full'>
                         <Slide>
-                            <h1 className="text-5xl font-bold leading-tight	">I'am <span className='text-[#FFA801]'>Kaykobad Yiasin</span> Khan</h1>
-                            <p className="py-5">Experienced web developer proficient in HTML, CSS, JavaScript, Bootstrap, Tailwind, React, Firebase, Express, MongoDB, Node.js, Git, Netlify, and Vercel. Strong expertise in building and deploying dynamic web applications.</p>
+                            <h1 className="text-4xl font-bold leading-tight	"><span className='text-[#FFA801]'>Kaykobad Yiasin</span> Khan</h1>
+                            <p className="py-5">Highly skilled web developer with extensive expertise in the MERN Stack, including HTML, CSS, JavaScript, Bootstrap, Tailwind, React, Firebase, Express, MongoDB, Node.js, Git, Netlify, and Vercel. Adept at designing, developing, and deploying dynamic web applications, combining a deep understanding of front-end and back-end technologies to create seamless and responsive user experiences.</p>
                             <Link to='/contact' className="btn bg-[#FFA801] border-0" >Hire Me</Link>
                         </Slide>
                     </div>

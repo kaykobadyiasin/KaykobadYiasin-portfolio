@@ -4,10 +4,10 @@ import './Portfolio.css'
 
 const Portfolio = () => {
     return (
-        <div className='lg:px-32 px-10'>
+        <div className='lg:px-32 px-10 min-h-screen'>
             <h2 className='text-4xl font-bold mt-10 bg-[#FFA801] p-2'>My Projects</h2>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 my-10'>
-                <div className="hero-content card w-96 h-[500px] shadow-xl rounded-lg">
+            <div className='grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-5 my-10'>
+                <div className=" card h-[500px] shadow-xl  w-full">
                     {/* <figure className=''> */}
                         <div className='bgProject rounded-lg'>
                             {/* <img src={project1} className='absolute' alt="Shoes" /> */}
@@ -24,9 +24,9 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hero-content card w-96 h-[500px] shadow-xl rounded-lg">
+                <div className=" card h-[500px] shadow-xl  w-full">
                     {/* <figure className=''> */}
-                        <div className='bgProject2 rounded-lg image-full'>
+                        <div className='bgProject2  image-full'>
                             {/* <img src={project1} className='absolute' alt="Shoes" /> */}
                         </div>
                     {/* </figure> */}
@@ -41,7 +41,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hero-content card w-96 h-[500px] shadow-xl rounded-lg">
+                <div className=" card h-[500px] shadow-xl rounded-lg w-full">
                     {/* <figure className=''> */}
                         <div className='bgProject3 rounded-lg'>
                             {/* <img src={project1} className='absolute' alt="Shoes" /> */}
