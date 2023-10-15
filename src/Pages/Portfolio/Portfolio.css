@@ -1,0 +1,36 @@
+.bgProject{
+    background-image: url(../../assets/projects/Yoga.png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition-duration: 8500ms;
+}
+.bgProject:hover{
+    background-position: bottom;
+}
+.bgProject2{
+    background-image: url(../../assets/projects/Toy-Animal-Car.png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition-duration: 8500ms;
+}
+.bgProject2:hover{
+    background-position: bottom;
+}
+.bgProject3{
+    background-image: url(../../assets/projects/Chef-Info.png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition-duration: 8500ms;
+}
+.bgProject3:hover{
+    background-position: bottom;
+}
