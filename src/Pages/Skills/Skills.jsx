@@ -120,7 +120,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div>
-                    <h3 className='text-xl font-bold'>Express</h3>
+                    <h3 className='text-xl font-bold'>Express js</h3>
                 </div>
                 <div>
                     <input type="range" min={0} max="100" value="50" className="range" step="0" />

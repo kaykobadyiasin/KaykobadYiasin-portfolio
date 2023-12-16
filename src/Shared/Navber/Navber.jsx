@@ -1,6 +1,6 @@
 
 import { Link, NavLink } from "react-router-dom";
-import resume from '../../assets/Kaykobad-Yiasin-CV.pdf'
+import resume from '../../assets/Resume-of-MD-Kaykobad-Yiasin-Khan.pdf'
 import { Fade, Slide } from "react-awesome-reveal";
 
 const Navber = () => {
@@ -8,9 +8,9 @@ const Navber = () => {
 
     const navItems = <>
         <li><NavLink to='/' className="hover:text-[#FFA801]">Home</NavLink></li>
-        <li><NavLink to='/about' className="hover:text-[#FFA801]">About</NavLink></li>
+        {/* <li><NavLink to='/about' className="hover:text-[#FFA801]">About</NavLink></li> */}
         <li><NavLink to='/portfolio' className="hover:text-[#FFA801]">Portfolio</NavLink></li>
-        <li><NavLink to='/skills' className="hover:text-[#FFA801]">Skills</NavLink></li>
+        {/* <li><NavLink to='/skills' className="hover:text-[#FFA801]">Skills</NavLink></li> */}
         {/* <li><NavLink to='/testimonial' className="hover:text-[#FFA801]">Testimonial</NavLink></li> */}
         <li><NavLink to='/contact' className="hover:text-[#FFA801]">Contact</NavLink></li>
     </>
@@ -28,7 +28,8 @@ const Navber = () => {
                         </ul>
                     </div>
                     <Slide>
-                    <Link to='/' className="text-xl font-bold">Kaykobad <span className="text-[#FFA801]">Yiasin</span> Khan</Link>
+
+                        <Link to='/' className="text-xl font-bold text-[#FFA801]">Md <span className="text-white">Kaykobad Yiasin</span> Khan</Link>
                     </Slide>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -37,7 +38,7 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Fade><a href={resume} download='Kaykobad Yiasin Resume' className="btn bg-[#FFA801] border-0" >Download Resume</a></Fade>
+                    <Fade><a href={resume} download='Resume-Of-MD-Kaykobad-Yiasin-Khan' className="btn bg-[#FFA801] border-0" >Download Resume</a></Fade>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ const Contact = () => {
         <div className='lg:px-32 pb-10 min-h-screen'>
             <div className="">
                 <div className="hero-content flex-col lg:flex-row justify-between gap-10">
-                    <div className="">
+                    <div className="w-full">
                         <h1 className="text-5xl font-bold">Contact now!</h1>
                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <div className="rounded-lg shadow-md p-5">

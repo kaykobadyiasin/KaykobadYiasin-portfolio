@@ -115,7 +115,8 @@ const Banner = () => {
                     </div>
                     <div className='text-white lg:w-full'>
                         <Slide>
-                            <h1 className="text-4xl font-bold leading-tight	"><span className='text-[#FFA801]'>Kaykobad Yiasin</span> Khan</h1>
+                            <h4 className='text-sm my-5'>About Me</h4>
+                            <h1 className="text-4xl font-bold leading-tight	text-[#FFA801]">MD <span className='text-white'>Kaykobad Yiasin</span>  Khan</h1>
                             <p className="py-5">Highly skilled web developer with extensive expertise in the MERN Stack, including HTML, CSS, JavaScript, Bootstrap, Tailwind, React, Firebase, Express, MongoDB, Node.js, Git, Netlify, and Vercel. Adept at designing, developing, and deploying dynamic web applications, combining a deep understanding of front-end and back-end technologies to create seamless and responsive user experiences.</p>
                             <Link to='/contact' className="btn bg-[#FFA801] border-0" >Hire Me</Link>
                         </Slide>
