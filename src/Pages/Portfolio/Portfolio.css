@@ -1,6 +1,6 @@
 .bgProject{
     background-image: url(../../assets/projects/Yoga.png);
-    height: 800px;
+    min-height: 300px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,8 +11,8 @@
     background-position: bottom;
 }
 .bgProject2{
-    background-image: url(../../assets/projects/Toy-Animal-Car.png);
-    height: 800px;
+    background-image: url(../../assets/projects/matribhumi-city.png);
+    min-height: 300px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@
 }
 .bgProject3{
     background-image: url(../../assets/projects/ImageGallery.png);
-    height: 800px;
+    min-height: 300px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
