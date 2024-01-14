@@ -4,17 +4,17 @@ import { FaEnvelope, FaEnvelopeOpen, FaLocationArrow, FaPhoneAlt } from 'react-i
 
 const Contact = () => {
     return (
-        <div className='lg:px-32 pb-10 min-h-screen'>
+        <div className='lg:px-32 pt-20 min-h-screen'>
             <div className="">
-                <div className="hero-content flex-col lg:flex-row justify-between gap-10">
+                <div className="flex flex-col lg:flex-row justify-between gap-10 xl:mx-0 mx-5">
                     <div className="w-full">
                         <h1 className="text-5xl font-bold">Contact now!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <p className="py-6">For any queries, please submit your contact information.</p>
                         <div className="rounded-lg shadow-md p-5">
                             <div className='flex items-center gap-5'>
                                 <div><FaLocationArrow className='text-[#FFA801] text-2xl'></FaLocationArrow> </div>
                                 <div>
-                                    <h2 className='text-2xl font-semibold'>Our Address</h2>
+                                    {/* <h2 className='text-2xl font-semibold'>Our Address</h2> */}
                                     <p>Bosila, Mohammadpur, Dhaka, 1207</p>
                                 </div>
                             </div>
@@ -23,7 +23,7 @@ const Contact = () => {
                             <div className='flex items-center gap-5'>
                                 <div><FaPhoneAlt className='text-[#FFA801] text-2xl'></FaPhoneAlt> </div>
                                 <div>
-                                    <h2 className='text-2xl font-semibold'>Our Phone</h2>
+                                    {/* <h2 className='text-2xl font-semibold'>Our Phone</h2> */}
                                     <p>Personal: +880 1706084806</p>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@ const Contact = () => {
                             <div className='flex items-center gap-5'>
                                 <div><FaEnvelopeOpen className='text-[#FFA801] text-2xl'></FaEnvelopeOpen> </div>
                                 <div>
-                                    <h2 className='text-2xl font-semibold'>Our Email</h2>
+                                    {/* <h2 className='text-2xl font-semibold'>Our Email</h2> */}
                                     <p>kaykobadyiasin@gmail.com</p>
                                 </div>
                             </div>
