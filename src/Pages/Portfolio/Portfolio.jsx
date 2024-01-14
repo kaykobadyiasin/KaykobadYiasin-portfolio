@@ -14,7 +14,7 @@ const Portfolio = () => {
                     </div>
                     {/* </figure> */}
                     <div className="card-body">
-                        <h2 className="card-title">Matribhumi City</h2>
+                        <h2 className="card-title">Matribhumi City <span className='text-[#FFA801]'>(</span><span className='text-lg'>Recent Project</span><span className='text-[#FFA801]'>)</span></h2>
                         <div className="card-actions my-4">
                             <a href='https://matribhumicitybd.netlify.app/' className="btn text-[#040330] hover:text-white hover:bg-[#040330] bg-[#FFA801]" target='blank'>Live Link</a>
 
